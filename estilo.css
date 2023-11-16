@@ -1,0 +1,288 @@
+*{
+    margin: auto;
+}
+
+.progress-bar{
+    position:fixed;
+    width: 100%;
+    height: 10px;
+}
+.progress { 
+    width:0%;
+    height:100%;
+    background-color: red;
+
+
+
+}
+body{
+    background-color:#ffffff;
+}
+.boton{
+    text-align: center;
+    text-decoration: none;
+    width: 168px;
+    height: 40px;
+    margin-right: 50px;
+    margin-bottom: px;
+    background-color: transparent;
+    font-weight: bold;
+    color: #444;
+    font-size: 2rem;
+    padding: 1rem 1.5rem;
+    border:2px solid ;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem #ccc,
+        -.5rem -.5rem 1rem #fff
+    
+    
+}
+.boton:hover{
+    box-shadow: .5rem .5rem 1rem #fff,
+        -.5rem -.5rem 1rem #ccc
+}
+.boton:active{
+    box-shadow: inset .2rem 2rem 1rem #ccc,
+    inset -.2rem -.2rem 1rem #fff
+}
+li{
+    padding-bottom: 30px;
+}
+h2{
+    
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    margin-block-start: 0.83em;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;  
+
+}
+h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xxx-large;
+    margin-top: 20px;
+    
+}
+#poster{
+    width: 33vh;
+    height: 37vh;
+    transition: box-shadow .1s , transform 1s;
+
+    background: url('Fotoperfil.PNG'),url('webmaster.jpg'), url('wega.PNG') no-repeat center;
+    background-size: cover;
+    
+}
+#poster:hover{
+    box-shadow: 0px 0px 50px rgba(0,0,0, 1);
+}
+
+
+.header {
+    background-color:rgb(18, 199, 169) ;
+    float: block;
+    width: 100%;
+    z-index: 10;
+     
+}
+.menu{
+    margin:auto;
+    text-align: center;
+    padding: 1%;
+    
+}
+.menu li a{
+    padding: 20px;
+    display: block;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+      
+}
+.menu li{
+    display: inline-block;
+    
+}
+.img { 
+    width: 33vh;
+    height: 37vh;
+
+}
+.footer{
+    background:#949494;
+    height: 5px;
+    width: 100%;
+    bottom: 0px;
+    position: absolute;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.p{
+    font-size: xxx-large;
+    margin-bottom: 3%;
+    
+
+}
+.cajatexto {
+    
+    border-radius: 10%;
+    background-color: #ffffff;
+    border:18px solid rgb(99, 94, 94);
+    text-align: center;
+    width: 100vh;
+    height: 80%;
+    box-sizing: border-box;
+    font-size: x-large;
+    margin-top: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contenedor{
+    width: 80%;
+    display: flex;
+    margin-top: 95px;
+    position: relative;
+       
+}
+.contenedor21{
+    width: 80%;
+    display: flex;
+    margin-top: 95px;
+    position: relative;
+    float: block;
+    width: 100%;
+    z-index: 10;
+}
+.titulo-caja{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+@media screen and (max-width:1200px){
+    .header{
+        width: 100%;
+    }
+    .h2{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .header{
+        width: 100%;
+    }
+    .h2{
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width:768px){
+    .cajatexto {
+        width: 80%;
+        height: 30VH;
+        margin-left: 0px;
+        }
+        .h2{
+            text-align: center;
+        }
+        
+    .footer{
+        background:rgb(179,147,124);
+        width: 100%;
+        bottom: 0px;
+        text-align: center;
+        top: 100vh;
+        }
+        .cajatexto {
+            width: 80%;
+            height: 30VH;
+            margin-left:3vh;         
+            top: 65%;
+                }}
+
+    
+
+
+
+
+@media screen and (max-width:480px){
+    .header{
+        background-color:rgb(8, 8, 8) ;
+        width: 83vh;
+        z-index: 10;
+        }
+        .footer{
+            background:rgb(148, 143, 140);
+            height: 5px;
+            width: 100vh;
+            text-align: center;
+            margin-top: 100vh;
+            }
+        .h1{
+            margin-left: 27vh;
+            font-size: 3vh;
+        
+        }
+        .h2{
+            margin-left: 26vh;
+        }
+        .cajatexto {
+            height: 30VH;
+            margin-left: 4%;
+                }
+
+ }
+
+
+
+
+
+
+@media screen and (max-width:320px){
+    .h1{
+    margin-left: 28vh;
+    font-size: 3vh;
+         }
+    .h2{
+        margin-left: 28vh;
+    }
+   
+    .footer{
+        background:rgb(160, 157, 156);
+        height: 5px;
+        width: 100vh;
+        text-align: center;
+        margin-top: 200vh;
+        }
+    
+    .img{
+        margin-left: 50%;     
+    }
+    .cajatexto {
+        width: 100%;
+        height: 30VH;
+        margin-top: 28vh;
+        position: absolute;
+        top: 65%;
+        margin-left: 50%;
+            }
+
+    .header{
+        background-color:rgb(88,66,50) ;
+        width: 83vh;
+        z-index: 10;
+        }
+}
+
+
+
+
+ 
